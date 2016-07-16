@@ -18,6 +18,7 @@
 
  */
 
+
 /* ==========================================================================
    0. Includes - Ground zero
    ========================================================================== */
@@ -54,7 +55,7 @@
     text-decoration: none;
 }
 
-/* Each icon is created by inserting the corret character into the 
+/* Each icon is created by inserting the corret character into the
    content of the :before pseudo element. Like a boss. */
 .icon-ghost:before {
     content: "\e000";
@@ -277,8 +278,8 @@ kbd {
     font-weight: bold;
     background: #f4f4f4;
     border-radius: 4px;
-    box-shadow: 
-        0 1px 0 rgba(0, 0, 0, 0.2), 
+    box-shadow:
+        0 1px 0 rgba(0, 0, 0, 0.2),
         0 1px 0 0 #fff inset;
 }
 
@@ -379,52 +380,13 @@ button, input, select, textarea {
 }
 
 /* Yo-logo. Yolo-go. Upload one in ghost/settings/ */
-   
+
 #blog-logo {
-    width: 100px;
-    border-radius: 50%;
     overflow: hidden;
     display: block;
     margin: 0 auto;
-    border: 5px solid #bf6165;
-
+    text-align: center;
 }
-#blog-logo:before {  
-     width: 100px;
-     height: 100px;
-    border-radius: 50%;
-    overflow: hidden;
-    display: block;
-    margin: 0 auto;
-    content: "";  
-    display: block;  
-    position: absolute;  
-    top: 0;  
-    bottom: 0;  
-    left: 0;  
-    right: 0; 
-    background: none; 
-    -moz-transition: background .3s linear;  
-    -webkit-transition: background .3s linear;  
-    -o-transition: background .3s linear;  
-    transition: background .3s linear;  
-    border: 5px solid #bf6165;
-
-}
-
-#blog-logo:hover:before {
-    background: rgba(204,31,39, 0.5);  
-    
-}
-#blog-logo img {
-    display: block;
-    max-height: 100px;
-    width: auto;
-    line-height: 0;
-    border-radius: 50%;
-
-}
-
 
 #back {
     color: rgba(0,0,0,0.2);
@@ -830,9 +792,9 @@ button, input, select, textarea {
     }
 
     #site-head {
-        -webkit-box-sizing: border-box; 
+        -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
-        box-sizing: border-box; 
+        box-sizing: border-box;
         height: auto;
         min-height: 240px;
         padding: 15% 0;
@@ -861,7 +823,7 @@ button, input, select, textarea {
         padding: 40px 0;
     }
     .post-header #blog-logo:before {
-        margin: 40px auto        
+        margin: 40px auto
     }
 
     h1 {
@@ -891,16 +853,16 @@ button, input, select, textarea {
 @media only screen and (max-width: 500px) {
 
     #blog-logo img {
-        max-height: 80px;
+        max-height: 130px;
     }
     #blog-logo {
-        width: 80px;
+        width: 130px;
     }
-    #blog-logo:before {  
-        width: 80px;
-        height: 80px;
+    #blog-logo:before {
+        width: 130px;
+        height: 18px;
     }
-    .inner, 
+    .inner,
     .pagination {
         width: auto;
         margin-left: 16px;
