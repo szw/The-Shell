@@ -38,10 +38,10 @@
 
     </script>
     <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
-    <script src="{{asset js/cookieconsent.min.js}}"></script>
     <script type="text/javascript">
-      window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":null,"theme":"dark-floating"};
+      window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":null,"theme":"{{asset "css/cookieconsent.css"}}"};
     </script>
+    <script type='text/javascript' src='/assets/js/cookieconsent.min.js'></script>
 </head>
 <body class="{{body_class}}">
 
@@ -52,7 +52,7 @@
         <!-- <a class="subscribe icon-feed" href="{{@blog.url}}/rss/"><span class="tooltip">Subscribe!</span></a> -->
         <div class="inner">
              <section class="copyright">Copyright by <a href="/">{{@blog.title}}</a> (<a href="/about/">more about</a>) &copy; {{date format="YYYY"}} &bull; All rights reserved.</section>
-             <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://ghost.org">Ghost</a> in <a href="https://github.com/mityalebedev/The-Shell">The Shell</a> theme (modified) and with cookies.</section>
+             <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://ghost.org">Ghost</a> in <a href="https://github.com/mityalebedev/The-Shell">The Shell</a> theme (modified).</section>
         </div>
     </footer>
 
