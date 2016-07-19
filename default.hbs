@@ -45,7 +45,7 @@
     </script>
     <script type='text/javascript' src='/assets/js/cookieconsent.min.js'></script>
 </head>
-<body class="{{body_class}}">
+<body class="{{body_class}}" onload="retinajs();">
 
     {{! Everything else gets inserted here }}
     {{{body}}}
@@ -62,6 +62,7 @@
     {{ghost_foot}}
 
     {{! Scripts }}
+    <script type='text/javascript' src='/assets/js/retina.min.js'></script>
     <script type='text/javascript' src='/assets/highlighter/prettify.js'></script>
     <script type='text/javascript' src='/assets/js/shell.js'></script>
 </body>
